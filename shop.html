@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <title>HTML Academy: Каталог Барбершопа</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-navigation">
+            <a class="main-header-logo" href="index.html">
+                <img src="img/index-logo.svg" width="368" height="153" alt="Логотип барбершопа «Бородинский»"/>
+            </a>
+            <ul class="site-navigation">
+                <li><a href="info.html">Информация</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="price.html">Прайс-лист</a></li>
+                <li><a href="shop.html">Магазин</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+            <ul class="user-navigation">
+                <li><a href="">Вход</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Средства для ухода</h1>
+        <nav class="breadcrumbs">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="index.html">Магазин</a></li>
+                <li>Средства для ухода</li>
+            </ul>
+        </nav>
+        <section class="groups brand-groups-list">
+            <h2>Производители</h2>
+            <ul>
+                <li>Baxter of California</li>
+                <li>Mr Natty</li>
+                <li>Suavecito</li>
+                <li>Malin+Goetz</li>
+                <li>Murray's</li>
+                <li>American Crew</li>
+            </ul>
+        </section>
+        <section class="groups product-groups-list">
+            <h2>Группы товаров</h2>
+            <ul>
+                <li>Бритвенные принадлежности</li>
+                <li>Средства для ухода</li>
+                <li>Аксессуары</li>
+            </ul>
+        </section>
+        <section class="items">
+            <h2 class="visually-hidden">Список средств для ухода</h2>
+            <ul class="items-list">
+                <li>
+                    <a href="item.html">
+                        <img src="img/baxter.jpg" alt="Baxter"/>
+                    </a>
+                    <h3>Набор для путешествий Baxter of California</h3>
+                    <b>2900</b>
+                    <button>Купить</button>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/condit.jpg" alt="Conditioner"/>
+                    </a>
+                    <h3>Увлажняющий кондиционер</h3>
+                    <div>
+                        <p>750</p>
+                        <button>Купить</button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <ul class="pagination">
+            <li class="pagination-link"><a href="#">1</a></li>
+            <li class="pagination-link active">2</li>
+            <li class="pagination-link"><a href="#">3</a></li>
+            <li class="pagination-link"><a href="#">4</a></li>
+        </ul>
+    </main>
+    <footer class="main-footer">
+        <p class="footer-contacts">
+            Барбершоп «Бородинский»<br> Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+            <a href="map.html">Как нас найти?</a><br> Телефон: +7 (812) 666-02-66
+        </p>
+        <div class="footer-social">
+            <b>Давайте дружить!</b>
+            <ul>
+                <li><a class="social-button" href="#">Вконтакте</a></li>
+                <li><a class="social-button" href="#">Фейсбук</a></li>
+                <li><a class="social-button" href="#">Инстаграм</a></li>
+            </ul>
+        </div>
+        <p class="footer-copyright">
+            <b>Разработано:</b> <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
+        </p>
+    </footer>
+
+    <section class="modal modal-login">
+        <h2>Личный кабинет</h2>
+        <p>Введите свой логин и пароль.</p>
+        <!-- Здесь будет форма -->
+        <span class="modal-close">x</span>
+    </section>
+</body>
+
+</html>
